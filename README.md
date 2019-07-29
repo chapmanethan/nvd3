@@ -18,7 +18,7 @@ Simply add the `nv.d3` assets to your project and include them in your HTML.
 
 ### Dependencies
 
-NVD3 is recommended to go with [d3.js](http://d3js.org/) version 3.5.3 and later, but NOT d3 4.x yet. [version 3.5.17](https://github.com/d3/d3/releases/tag/v3.5.17) is the most recent d3 v3 release. 
+NVD3 is recommended to go with [d3.js](http://d3js.org/) version 3.5.3 and later, but NOT d3 4.x yet. [version 3.5.17](https://github.com/d3/d3/releases/tag/v3.5.17) is the most recent d3 v3 release.
 
 **Minimum D3 version required: 3.4.4**
 
@@ -165,7 +165,9 @@ only include the source files you changed!
 
 1. First clone the repository and checkout the `master` branch
 2. make sure `nodejs` is installed via your system's package manager.
-3. Install `grunt`, `grunt-cli`, and `bower`:  `npm install -g grunt grunt-cli bower`
+3. Install `grunt`, `grunt-cli`, and `yarn`:  `npm install -g grunt grunt-cli yarn`
+
+> Run `yarn`
 
 > have node download nvd3's required modules with:  `npm install`
 

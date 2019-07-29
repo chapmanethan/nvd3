@@ -6,7 +6,8 @@
   "main": "build/nv.d3.js",
   "scripts": {
     "test": "grunt",
-    "build": "grunt"
+    "build": "grunt",
+    "postinstall": "node -e \"try { require('fs').symlinkSync(require('path').resolve('node_modules/@bower_components'), 'bower_components', 'junction') } catch (e) { }\""
   },
   "repository": {
     "type": "git",
@@ -48,5 +49,8 @@
     "karma-spec-reporter": "0.0.13",
     "mocha": "^1.21.4",
     "moment": "^2.18.1"
+  },
+  "engines": {
+    "yarn": ">= 1.0.0"
   }
 }
